@@ -11,7 +11,7 @@ function Home() {
 
      useEffect(async ()=>{
          if(sCity){
-             const weatherRes = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${sCity}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)
+             const weatherRes = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${sCity}&appid=13ed9e9e3c157e15cbece6e3a173b797&units=metric`)
              const weatherData = await weatherRes.json()
              if(weatherData.cod === "404"){
                  alert(weatherData.message)

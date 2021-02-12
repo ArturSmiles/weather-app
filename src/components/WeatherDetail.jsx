@@ -6,8 +6,7 @@ function WeatherDetail(props) {
 
 
     useEffect(async ()=>{
-        console.log(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${props.data.name}&cnt=7&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)
-        const wDetailRes = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${props.data.coord.lat}&lon=${props.data.coord.lon}&exclude=current,minutely,hourly&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)
+        const wDetailRes = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${props.data.coord.lat}&lon=${props.data.coord.lon}&exclude=current,minutely,hourly&appid=13ed9e9e3c157e15cbece6e3a173b797&units=metric`)
         const wDetailData = await wDetailRes.json()
         setDetail(wDetailData)
     },[detail])
