@@ -1,0 +1,45 @@
+.ant-col-6{
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+.ImageCol{
+    width: 10vw;
+    height: 30vh;
+}
+.gutter-row{
+    margin-top: 2rem;
+    max-width: 10vw;
+    max-height:40vh;
+    margin-left:5vw;
+
+}
+.cityName{
+    position: relative;
+    top: -30vh;
+    font-size: 20px;
+    color:grey;
+}
+.tempP{
+    position: relative;
+    top:-29vh;
+    font-size: 40px;
+    color:grey
+}
+.weatherDesc{
+    position: relative;
+    top:-33vh;
+    font-size: 15px;
+    color:grey
+}
+.tempMax{
+    position: relative;
+    top:-25vh;
+    left:-3vw;
+    color:rgb(255, 51, 0);
+}
+.tempMin{
+    position: relative;
+    top:-28.9vh;
+    left:3vw;
+    color: rgb(0, 174, 255);
+}

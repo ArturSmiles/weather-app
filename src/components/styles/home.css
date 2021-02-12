@@ -1,0 +1,12 @@
+.HomeText{
+        position: relative;
+        left: 50vw;
+        bottom: -1vh;
+}
+.CitySearch{
+    width: 30vw;
+    margin-top: 10vh;
+}
+.home{
+    height: 100%;
+}
